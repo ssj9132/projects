@@ -1,0 +1,74 @@
+    {
+        "visitors": [
+            {
+                "Name": "Shaun Jacob",
+                "Phone": "0504845737",
+                "Company": "Apple",
+                "Email": "ssj9132@mavs.uta.edu",
+                "Visiting": "Saif Khan",
+                "No. of Guests": 1,
+                "Reason for Visit": "Interview",
+                "Guest Names": null
+            },
+            {
+                "Name": "John Messi",
+                "Phone": "0569796848",
+                "Company": null,
+                "Email": "johnmessi@gmail.com",
+                "Visiting": null,
+                "No. of Guests": 2,
+                "Reason for Visit": "Meeting",
+                "Guest Names": ["John Messi", "Kabib N."]
+            },
+            {
+                "Name": "Armaan Malik",
+                "Phone": "0558484443",
+                "Company": "Jackson LLC",
+                "Email": "armalik@jackson.com",
+                "Visiting": "Liya Matt",
+                "No. of Guests": 1,
+                "Reason for Visit": "Meeting",
+                "Guest Names": null
+            },
+            {
+                "Name": "Ava Smith",
+                "Phone": "0587945612",
+                "Company": "Tech Solutions",
+                "Email": "ava.smith@techsolutions.com",
+                "Visiting": "Robert Jr",
+                "No. of Guests": 1,
+                "Reason for Visit": "Project Discussion",
+                "Guest Names": null
+            },
+            {
+                "Name": "Liam Johnson",
+                "Phone": "0561237894",
+                "Company": "Creative Designs",
+                "Email": "liam.johnson@creativedesigns.com",
+                "Visiting": "Liya Matt",
+                "No. of Guests": 3,
+                "Reason for Visit": "Client Meeting",
+                "Guest Names": ["Liam Johnson", "Emma Wilson", "Sophia Johnson"]
+            },
+            {
+                "Name": "Isabella Johnson",
+                "Phone": "0589876543",
+                "Company": "Tech Innovators",
+                "Email": "isabella.johnson@techinnovators.com",
+                "Visiting": "Liya Matt",
+                "No. of Guests": 1,
+                "Reason for Visit": "Research Discussion",
+                "Guest Names": null
+            },
+            {
+                "Name": "Ethan Davis",
+                "Phone": "0532145879",
+                "Company": "Creative Minds",
+                "Email": "ethan.davis@creativeminds.com",
+                "Visiting": "Saif Khan",
+                "No. of Guests": 3,
+                "Reason for Visit": "Workshop",
+                "Guest Names": ["Ethan Davis", "Chris Blue", "Olivia White"]
+            }
+        ]
+    }

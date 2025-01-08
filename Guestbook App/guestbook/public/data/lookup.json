@@ -1,0 +1,13 @@
+{
+    "employees":
+    [
+        {"Employee": "Robert Jr"},
+        {"Employee": "Saif Khan"},
+        {"Employee": "Liya Matt"}
+    ],
+
+    "locations":
+    [
+        "Marina Plaza - 36th Floor", "Marina Plaza - 28th Floor", "Marina Plaza - 15th Floor", "Downtown Dubai"
+    ]
+}
