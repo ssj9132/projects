@@ -1,0 +1,471 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Cabin", sans-serif !important;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #FAF5E9; /* Initial background color */
+  transition: all 0.3s ease;
+  z-index: 10;
+  height: 90px;
+}
+
+nav:hover {
+  background-color: #124110; /* Background color on hover */
+}
+
+.navbar-title {
+  color: #124110; /* Initial color */
+  font-size: 50px !important; /* Adjust title font size as needed */
+  text-decoration: none;
+}
+
+nav:hover .navbar-title {
+  color: #FAF5E9 !important; /* Color on hover */
+}
+
+.options {
+  display: flex;
+  gap: 50px;
+}
+
+.options a {
+  position: relative; /* Needed for the underline effect */
+  text-decoration: none;
+  color: #124110; /* Initial color */
+  font-size: 25px;
+  padding-bottom: 5px; /* Space for the underline */
+}
+
+.options a:after {
+  content: "";
+  position: absolute;
+  background-color: gold;
+  height: 3px;
+  width: 0; /* Initially hidden */
+  left: 0;
+  bottom: 0;
+  transition: width 0.3s ease; /* Smooth transition */
+}
+
+.options a:hover:after {
+  width: 100%; /* Full width on hover */
+}
+
+nav:hover .options a {
+  color: #FAF5E9; /* Color on hover */
+}
+
+.navbar-scrolled {
+  background-color: #124110; /* Translucent version of the hover color */
+}
+
+.navbar-scrolled .options a {
+  color: #FAF5E9; /* Color on hover */
+}
+.navbar-scrolled .navbar-title {
+  color: #FAF5E9 !important; /* Color on hover */
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110vh;
+  background-color: #FAF5E9;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: -50px;
+}
+
+.text-container {
+  margin-left: 10px; /* Space between the image and the text */
+}
+
+h1 {
+  margin: 0;
+  font-size: 100px !important;
+  color: #124110 !important;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 30px !important;
+  color: rgb(55, 54, 54) !important;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.connectbutton button {
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #124110;
+  color: #FAF5E9;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.connectbutton button:hover {
+  background-color: #376b36;
+}
+
+.resumebutton button {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-right: 600px;
+  padding: 10px;
+  background-color: rgb(55, 54, 54);
+  color: #FAF5E9;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.resumebutton button:hover {
+  background-color: gray;
+}
+
+#about {
+  padding-top: 100px;
+}
+.About {
+  background-color: #FAF5E9;
+  min-height: 150vh;
+}
+
+.shaun-img {
+  width: 500px;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+}
+
+.aboutMe-text {
+  font-size: 25px;
+  color: rgb(55, 54, 54);
+  margin-top: -100px;
+}
+
+.about-me-heading {
+  font-size: 70px;
+  color: #124110;
+  text-align: right;
+  margin-right: 80px;
+  margin-top: 0;
+  position: relative;
+}
+
+.about-me-heading:after {
+  content: "";
+  display: block;
+  width: 20%;
+  height: 5px;
+  background-color: gold;
+  position: absolute;
+  bottom: -5px;
+  left: 80%;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -180px;
+  padding: 20px;
+  margin-left: 550px;
+  margin-bottom: 100px;
+}
+
+.education {
+  width: 45%;
+  font-size: 22px;
+  color: rgb(55, 54, 54);
+}
+
+.education h3 {
+  color: #124110;
+  position: relative;
+}
+
+.coursework h5 {
+  font-size: 23px !important;
+}
+
+.education h3:after {
+  content: "";
+  display: block;
+  width: 35%;
+  height: 5px;
+  background-color: gold;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.degree-info p, .coursework li {
+  margin: -2px 0;
+  font-size: 20px;
+}
+
+.coursework {
+  margin-top: 70px;
+  width: 45%;
+}
+
+#skills {
+  padding-top: 100px;
+}
+
+.Skills {
+  background-color: #FAF5E9;
+  min-height: 250vh;
+}
+
+.skills-heading {
+  font-size: 70px;
+  color: #124110;
+  text-align: left;
+  margin-left: 80px;
+  margin-top: 0;
+  position: relative;
+}
+
+.skills-heading:after {
+  content: "";
+  display: block;
+  width: 12%;
+  height: 5px;
+  background-color: gold;
+  position: absolute;
+  bottom: -5px;
+  right: 88%;
+}
+
+.headings {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 30px;
+  color: gold
+}
+
+.Skill-Container {
+  display: flex;
+  gap: 30px;
+  padding: 60px;
+  flex-wrap: wrap; /* Allow skills to wrap to the next line */
+  justify-content: center; /* Center skills horizontally */
+}
+
+.Skill {
+  background-color: #fff; /* Box background color */
+  padding: 20px; /* Box padding */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Box shadow */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center; /* Center text */
+  width: 200px; /* Fixed width for each box */
+}
+
+.headings-container {
+  background-color: #0c5e65; /* Box background color */
+  padding: 20px; /* Box padding */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Box shadow */
+  border-radius: 10px; /* Rounded corners */
+  margin: 20px; /* Margin around the heading boxes */
+}
+
+.sections-container {
+  display: flex;
+ /* Space between sections */
+  flex-wrap: wrap; /* Allow wrapping */
+  margin-left: 160px;
+}
+
+.Skills {
+  background-color: #FAF5E9;
+  min-height: 220vh;
+  padding: 20px; /* Padding around the Skills section */
+  margin-bottom: -25px;
+}
+/*
+.projects {
+  background-color: #FAF5E9;
+  min-height: 120vh;
+}
+
+.projects-heading {
+  color: #124110;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 20px;
+  position: relative;
+  font-size: 70px;
+}
+
+.projects-heading:after {
+  content: "";
+  display: block;
+  width: 18%;
+  height: 5px;
+  background-color: gold;
+  position: absolute;
+  bottom: -5px;
+  right: 41%;
+}
+
+#projects {
+  padding-top: 100px;
+}
+
+.projects-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.project-image {
+  width: 450px;
+  height: auto; 
+  object-fit: fill;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-container {
+  position: relative;
+  width: 450px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.filter-button {
+  background-color: #124110;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.filter-button:hover {
+  background-color: #31a231;
+}
+
+*/
+
+.contacts {
+  background-color: #FAF5E9;
+  min-height: 120vh;
+}
+
+.contacts-heading {
+  color: #124110;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  font-size: 70px;
+}
+
+.contacts-heading:after {
+  content: "";
+  display: block;
+  width: 18%;
+  height: 5px;
+  background-color: gold;
+  position: absolute;
+  bottom: -5px;
+  right: 41%;
+}
+
+#contacts {
+  padding-top: 100px;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 20px;
+}
+
+.contact-item a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-img {
+  width: 400px; /* Adjust the size as needed */
+  height: auto ; /* Adjust the size as needed */
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.contact-img:hover {
+  transform: scale(1.1); /* Enlarge the image on hover */
+}
