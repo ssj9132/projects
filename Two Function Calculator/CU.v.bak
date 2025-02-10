@@ -1,0 +1,16 @@
+module CU
+(
+	input trig,
+	input [3:0] value,
+	input Clock,
+	input ClearEntry,
+	input ClearAll,
+	output Reset,
+	output LoadA,
+	output LoadB,
+	output AddSub,
+	output LoadR,
+	output IUAU
+);
+	
+

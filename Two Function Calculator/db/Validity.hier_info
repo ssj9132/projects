@@ -1,0 +1,28 @@
+|Validity
+KP[0] => LessThan2.IN8
+KP[1] => LessThan2.IN7
+KP[2] => LessThan2.IN6
+KP[3] => LessThan2.IN5
+KP[4] => LessThan1.IN8
+KP[4] => Equal1.IN31
+KP[5] => LessThan1.IN7
+KP[5] => Equal1.IN0
+KP[6] => LessThan1.IN6
+KP[6] => Equal1.IN30
+KP[7] => LessThan1.IN5
+KP[7] => Equal1.IN29
+KP[8] => LessThan0.IN8
+KP[8] => Equal0.IN0
+KP[9] => LessThan0.IN7
+KP[9] => Equal0.IN31
+KP[10] => LessThan0.IN6
+KP[10] => Equal0.IN30
+KP[11] => LessThan0.IN5
+KP[11] => Equal0.IN29
+KP[12] => ~NO_FANOUT~
+KP[13] => ~NO_FANOUT~
+KP[14] => ~NO_FANOUT~
+KP[15] => ~NO_FANOUT~
+LED <= LED.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,6 @@
+module Calculator 
+(
+	input ClearE,
+	input ClearA,
+	input Clk,
+);

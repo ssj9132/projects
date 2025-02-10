@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED",
+					"strict" : false
+				},
+				{
+					"name" : "KP[5]",
+					"strict" : false
+				},
+				{
+					"name" : "KP[8]",
+					"strict" : false
+				},
+				{
+					"name" : "KP[3]",
+					"strict" : false
+				},
+				{
+					"name" : "KP[4]",
+					"strict" : false
+				},
+				{
+					"name" : "KP[9]",
+					"strict" : false
+				},
+				{
+					"name" : "KP[6]",
+					"strict" : false
+				},
+				{
+					"name" : "KP[7]",
+					"strict" : false
+				},
+				{
+					"name" : "KP[10]",
+					"strict" : false
+				},
+				{
+					"name" : "KP[11]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

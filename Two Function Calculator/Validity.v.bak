@@ -1,0 +1,15 @@
+module Validity
+(
+	input [15:0] KP,
+	output LED
+);
+always @(KP)
+	begin
+		if(KP >= -127 && KP <= 127)
+			LED = 1;
+			
+		else 
+			LED = 0;
+	end
+
+endmodule

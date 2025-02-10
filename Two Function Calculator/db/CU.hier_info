@@ -1,0 +1,27 @@
+|CU
+trig => AddSub~reg0.CLK
+trig => state~1.DATAIN
+Clk => ~NO_FANOUT~
+ClrE => ~NO_FANOUT~
+ClrA => state~3.DATAIN
+ClrA => AddSub~reg0.ENA
+value[0] => Equal0.IN3
+value[0] => Equal1.IN2
+value[0] => Equal2.IN3
+value[1] => Equal0.IN1
+value[1] => Equal1.IN1
+value[1] => Equal2.IN2
+value[2] => Equal0.IN2
+value[2] => Equal1.IN3
+value[2] => Equal2.IN1
+value[3] => Equal0.IN0
+value[3] => Equal1.IN0
+value[3] => Equal2.IN0
+Reset <= Reset.DB_MAX_OUTPUT_PORT_TYPE
+LoadA <= LoadA.DB_MAX_OUTPUT_PORT_TYPE
+LoadB <= LoadB.DB_MAX_OUTPUT_PORT_TYPE
+AddSub <= AddSub~reg0.DB_MAX_OUTPUT_PORT_TYPE
+LoadR <= IUAU.DB_MAX_OUTPUT_PORT_TYPE
+IUAU <= IUAU.DB_MAX_OUTPUT_PORT_TYPE
+
+
