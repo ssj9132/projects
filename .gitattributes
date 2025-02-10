@@ -1,0 +1,2 @@
+Two[[:space:]]Function[[:space:]]Calculator/output_files/*.pof filter=lfs diff=lfs merge=lfs -text
+Two[[:space:]]Function[[:space:]]Calculator/output_files/*.sof filter=lfs diff=lfs merge=lfs -text
