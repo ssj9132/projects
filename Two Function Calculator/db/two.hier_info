@@ -1,0 +1,91 @@
+|twoSIGN
+A[0] => comb.IN0
+A[1] => comb.IN0
+A[2] => comb.IN0
+A[3] => comb.IN0
+A[4] => comb.IN0
+A[5] => comb.IN0
+A[6] => comb.IN0
+A[7] => ha[0].IN1
+B[0] <= halfADDER:twosFor[0].halfADDER_inst1.s
+B[1] <= halfADDER:twosFor[1].halfADDER_inst1.s
+B[2] <= halfADDER:twosFor[2].halfADDER_inst1.s
+B[3] <= halfADDER:twosFor[3].halfADDER_inst1.s
+B[4] <= halfADDER:twosFor[4].halfADDER_inst1.s
+B[5] <= halfADDER:twosFor[5].halfADDER_inst1.s
+B[6] <= halfADDER:twosFor[6].halfADDER_inst1.s
+B[7] <= halfADDER:twosFor[7].halfADDER_inst1.s
+
+
+|twoSIGN|halfADDER:twosFor[0].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|twoSIGN|halfADDER:twosFor[1].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|twoSIGN|halfADDER:twosFor[2].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|twoSIGN|halfADDER:twosFor[3].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|twoSIGN|halfADDER:twosFor[4].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|twoSIGN|halfADDER:twosFor[5].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|twoSIGN|halfADDER:twosFor[6].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+
+|twoSIGN|halfADDER:twosFor[7].halfADDER_inst1
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+

@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Apr 19 12:48:55 2024
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : binary2bcd
+Top-level Entity Name : binary2bcd
+Family : MAX 10
+Total logic elements : 32
+    Total combinational functions : 32
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

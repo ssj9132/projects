@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SEV[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEV[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEV[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEV[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEV[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEV[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEV[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BIN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "BIN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "BIN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "BIN[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+|halfADDER
+s <= comb.DB_MAX_OUTPUT_PORT_TYPE
+cout <= comb.DB_MAX_OUTPUT_PORT_TYPE
+a => comb.IN0
+a => comb.IN0
+b => comb.IN1
+b => comb.IN1
+
+

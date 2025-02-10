@@ -1,0 +1,193 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "S[0]",
+					"strict" : false
+				},
+				{
+					"name" : "S[1]",
+					"strict" : false
+				},
+				{
+					"name" : "S[2]",
+					"strict" : false
+				},
+				{
+					"name" : "S[3]",
+					"strict" : false
+				},
+				{
+					"name" : "S[4]",
+					"strict" : false
+				},
+				{
+					"name" : "S[5]",
+					"strict" : false
+				},
+				{
+					"name" : "S[6]",
+					"strict" : false
+				},
+				{
+					"name" : "S[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Flags[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Flags[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Flags[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Flags[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "HEX0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Add_Subtract",
+					"strict" : false
+				},
+				{
+					"name" : "X[0]",
+					"strict" : false
+				},
+				{
+					"name" : "InA",
+					"strict" : false
+				},
+				{
+					"name" : "Clear",
+					"strict" : false
+				},
+				{
+					"name" : "InB",
+					"strict" : false
+				},
+				{
+					"name" : "X[1]",
+					"strict" : false
+				},
+				{
+					"name" : "X[2]",
+					"strict" : false
+				},
+				{
+					"name" : "X[3]",
+					"strict" : false
+				},
+				{
+					"name" : "X[4]",
+					"strict" : false
+				},
+				{
+					"name" : "X[5]",
+					"strict" : false
+				},
+				{
+					"name" : "X[6]",
+					"strict" : false
+				},
+				{
+					"name" : "X[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Out",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
